@@ -1,0 +1,24 @@
+{
+  "name": "minion",
+  "version": "1.0.0",
+  "description": "Powerful (inline) workers for Javascript ES6",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsbuzz/minion.git"
+  },
+  "keywords": [
+    "worker",
+    "inline",
+    "es6"
+  ],
+  "author": "Matyas Buczko",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/jsbuzz/minion/issues"
+  },
+  "homepage": "https://github.com/jsbuzz/minion#readme"
+}
