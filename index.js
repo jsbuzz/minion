@@ -26,8 +26,6 @@ class Minion {
             new Blob(workerBody, { type: 'application/javascript' })
         );
 
-        console.log(workerBody.join(''));
-
         this.worker = new Worker(blobURL);
         this.worker.addEventListener('message', (e) => {
             this.onAnswer(e.data)
@@ -58,6 +56,5 @@ class Minion {
 export default Minion;
 
 function methodDeclaration(method, object) {
-    console.log(method, object, object[method]);
     return `${method} : ${object[method].toString()}`;
 }
